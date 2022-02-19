@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/main.js": "/js/main.js",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/js/bootstrap.bundle.min.js": "/js/bootstrap.bundle.min.js",
+    "/js/jquery.easing.min.js": "/js/jquery.easing.min.js",
+    "/js/validate.js": "/js/validate.js",
+    "/js/isotope.pkgd.min.js": "/js/isotope.pkgd.min.js",
+    "/js/venobox.min.js": "/js/venobox.min.js",
+    "/js/owl.carousel.min.js": "/js/owl.carousel.min.js",
+    "/js/aos.js": "/js/aos.js",
+    "/css/owl.carousel.min.css": "/css/owl.carousel.min.css",
+    "/css/venobox.css": "/css/venobox.css",
+    "/css/boxicons.min.css": "/css/boxicons.min.css",
+    "/css/icofont.min.css": "/css/icofont.min.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/app.css": "/css/app.css",
+    "/css/aos.css": "/css/aos.css"
+}

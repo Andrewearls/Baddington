@@ -86,8 +86,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
-          <h1>Websites Go Fwooosh!</h1>
-          <h2>Custom software solutions, apps, and services</h2>
+          <h1>A GLOBAL ICON</h1>
+          <h2>of Extravagant Web Services!</h2>
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -416,72 +416,72 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member">
-              <img src="{{ asset('images/team/team-1.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('images/team/andrew.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
+                  <h4>Andrew Earls</h4>
                   <span>Chief Executive Officer</span>
                 </div>
-                <div class="social">
+                <!--<div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="member">
-              <img src="{{ asset('images/team/team-2.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('images/team/sarah.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
+                  <h4>Sarah Earls</h4>
                   <span>Product Manager</span>
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="member">
-              <img src="{{ asset('images/team/team-3.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('images/team/alaura.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Alaura Kowitz</h4>
+                  <span>CTSO</span>
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="member">
-              <img src="{{ asset('images/team/team-4.jpg') }}" class="img-fluid" alt="">
+              <img src="{{ asset('images/team/leo.jpg') }}" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
+                  <h4>Leonardo Rena</h4>
+                  <span>Advertising Expert</span>
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -516,7 +516,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>
-          <p>Contact us the get started</p>
+          <p>Send us a message to get started!</p>
         </div>
 
         <div class="row">
@@ -547,7 +547,8 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{{ route('message.new') }}" method="post" role="form" class="php-email-form">
+              @csrf
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -624,23 +625,23 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+<!--               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
-            <h4>Our Services</h4>
+          <!-- <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300"> -->
+            <!-- <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+            </ul> -->
+          <!-- </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
+          <!-- <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
             <h4>Our Social Networks</h4>
             <p>See what we are doing in the community</p>
             <div class="social-links mt-3">
@@ -650,7 +651,7 @@
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>

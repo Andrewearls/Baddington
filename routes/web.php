@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,6 @@ Route::get('/', function () {
     return view('app');
 });
 
-Route::post('/message/create', [SendMessageController::class, 'sendMessage'])->name('message.create');
+Route::resource('messages', MessageController::class)->only([
+    'store',
+]);

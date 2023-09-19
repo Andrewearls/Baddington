@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for baddington-staging on 2023-09-19T08:33:59-07:00
+# fly.toml app configuration file generated for baddington-staging on 2023-09-19T10:37:24-07:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -13,7 +13,8 @@ console_command = "php /var/www/html/artisan tinker"
     PHP_VERSION = "8.2"
 
 [env]
-  APP_ENV = "testing"
+  APP_DEBUG = "true"
+  APP_ENV = "production"
   DB_CONNECTION = "mysql"
   LOG_CHANNEL = "stderr"
   LOG_LEVEL = "info"

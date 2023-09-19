@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::resource('messages', MessageController::class)->only([
     'store',
 ]);
+
+

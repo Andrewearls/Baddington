@@ -49,7 +49,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="#hero">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
@@ -456,7 +456,7 @@
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Alaura Kowitz</h4>
-                  <span>CTSO</span>
+                  <span>Customer Relations Manager</span>
                 </div>
                 <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
@@ -492,7 +492,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <!-- <section id="clients" class="clients section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -508,10 +508,10 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section> --><!-- End Clients Section -->
 
     <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -523,25 +523,25 @@
 
           <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="info">
-              <div class="address">
+              <div class="address pt-4">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
                 <p>4514 Candi PL NE, Salem, OR 97301</p>
               </div>
 
-              <div class="email">
+              <div class="email pt-4">
                 <i class="icofont-envelope"></i>
                 <h4>Email:</h4>
                 <p>info@baddington.com</p>
               </div>
 
-              <div class="phone">
+              <div class="phone pt-4">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
                 <p>(971) 915-3748</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed/v1/place?key={{ env('GOOGLE_MAPS_KEY') }}=Space+Needle,Seattle+WA" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key={{ env('GOOGLE_MAPS_KEY') }}=Space+Needle,Seattle+WA" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
             </div>
 
           </div>
@@ -670,7 +670,7 @@
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
   <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
   <script src="{{ asset('js/validate.js') }}"></script>

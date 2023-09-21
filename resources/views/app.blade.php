@@ -614,7 +614,7 @@
               4514 Candi PL NE <br>
               Salem, OR 97301<br>
               United States <br><br>
-              <strong>Phone:</strong>(971) 915-3748<br>
+              <strong>Phone:</strong>(503) 383-9060<br>
               <strong>Email:</strong> info@baddington.com<br>
             </p>
           </div>

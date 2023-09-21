@@ -21,12 +21,10 @@ console_command = "php /var/www/html/artisan tinker"
   LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
   SESSION_DRIVER = "cookie"
   SESSION_SECURE_COOKIE = "true"
-  MAIL_MAILER = "smtp"
-  MAIL_HOST = "mailhog"
+  MAIL_MAILER = "mailgun"
   MAIL_PORT = "1025"
   MAIL_ENCRYPTION = "null"
-  MAIL_FROM_ADDRESS = "null"
-  MAIL_FROM_NAME = "${APP_NAME}"
+  MAILGUN_ENDPOINT = "api.mailgun.net"
 
 [http_service]
   internal_port = 8080

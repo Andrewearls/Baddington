@@ -538,7 +538,7 @@
               <div class="phone pt-4">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>(971) 915-3748</p>
+                <p>(503) 383-9060</p>
               </div>
 
               <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key={{ env('GOOGLE_MAPS_KEY') }}=Space+Needle,Seattle+WA" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
